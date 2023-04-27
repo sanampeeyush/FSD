@@ -38,6 +38,13 @@ hr{
     padding-top: 80px;
 }
 
+.bottom-section{
+    background-color: var(--primaryColor);
+    text-align: center;
+    padding: 80px 0px;
+    color: white;
+}
+
 .heading {
     font-family: var(--titleFont);
     font-size: 5rem;
