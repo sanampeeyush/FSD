@@ -13,14 +13,23 @@
 body{
     margin: 0px;
     color: var(--primaryColor);
+    font-family: var(--fontDefaultHeading);
+    line-height: 2;
 }
 
 h2 {
-    font-family: var(--fontDefaultHeading);
     margin: 0;
     font-size: 2.25em;  /* 1em = 16px */
     font-weight: 100;
     padding-bottom: 20px;
+}
+
+
+hr{
+    border: dotted 5px var(--backgroundColor);
+    border-bottom: none;
+    margin: 120px auto 120px auto;  /* TRBL */
+    width: 5%;
 }
 
 .top-section{
@@ -28,6 +37,7 @@ h2 {
     text-align: center;
     padding-top: 80px;
 }
+
 .heading {
     font-family: var(--titleFont);
     font-size: 5rem;
@@ -75,8 +85,83 @@ h2 {
 .intro{
     width: 75%;
     margin: auto;
-    line-height: 2;
+    
 }
+
+.skill-image{
+    width: 150px;
+}
+
+.left{
+    float: left;
+    margin-right: 50px;
+    
+}
+
+.right{
+    float: right;
+    margin-left: 50px;
+    
+}
+
+.my-skills{
+    margin:0px auto 100px auto;
+}
+
+.skills{
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+/* .contact{
+    text-decoration: none;
+    background-color: var(--primaryColor);
+    background-image: linear-gradient(
+        180deg, 
+        var(--primaryColor),
+        var(--backgroundColor)
+    );
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 2.25rem;
+    color: white;
+}
+
+.contact:hover{
+    background-image: linear-gradient(
+        180deg, 
+        var(--backgroundColor),
+        var(--primaryColor)
+    );
+} */
+
+.contact {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .contact:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
+
 
 /* 
 font-family: 'Dancing Script', cursive;
