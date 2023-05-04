@@ -1,0 +1,50 @@
+body{
+    background-color: burlywood;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+img{
+    width: 10px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.plan{
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.features{
+    margin-top: 50px;
+    text-align: left;
+}
+
+.cart-button{
+    display: inline-block;
+    background-color: red;
+    background-image: linear-gradient(
+        180deg, 
+        var(red),
+        var(brown)
+    );
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.price{
+    font-size: 1.25rem;
+}
