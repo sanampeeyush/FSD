@@ -1,0 +1,53 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+    color: white;
+}
+
+.container{
+    /* width: 1000px; */
+    /* height: 1500px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap: 30px; */
+    column-gap: 30px;
+    row-gap: 10px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    width: 300px;
+    background-color: green;
+}
+.blue{
+    height: 280px;
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
+.brown{
+    background-color: brown;
+}
+.magenta{
+    background-color: magenta;
+}
+.cyan{
+    background-color: cyan;
+}
+.black{
+    background-color: black;
+}
+.teal{
+    background-color: teal;
+}
