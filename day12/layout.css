@@ -32,18 +32,23 @@ body{
 .blue{
     height: 280px;
     background-color: blue;
+    flex-grow: 3;
 }
 .orange{
     background-color: orange;
+    order: 1;
 }
 .brown{
     background-color: brown;
+    order: 4;
 }
 .magenta{
     background-color: magenta;
+    order: 3;
 }
 .cyan{
     background-color: cyan;
+    flex-grow: 2;
 }
 .black{
     background-color: black;
