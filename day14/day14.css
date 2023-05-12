@@ -1,0 +1,52 @@
+.element{
+    width: 200px;
+    height: 200px;
+    border: solid 1px;
+    border-color: black;   
+    animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+    0%, 100%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: cornflowerblue;
+    }
+}
+
+.element:hover{
+    animation: resizer 500ms 1;
+}
+@keyframes resizer {
+    0%, 100%{
+        transform: scale(1.0);
+        background-color: aqua;
+    }
+    50%{
+        transform: scale(0.25);
+        background-color: cornflowerblue;
+    }
+}
+
+
+.box{
+    background-color: red;
+    border-radius: 100%;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    animation-name: moveDown;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+@keyframes moveDown {
+    0%{
+        transform: translate(0px, 0px);
+    }
+    100%{
+        transform: translate(0px, 400px);
+    }
+}
