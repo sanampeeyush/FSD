@@ -1,0 +1,36 @@
+Website
+    Client Side - Frontend
+    Server Side - Backend
+
+
+Frontend Techs
+    HTML - Markup Language
+    CSS - Style Sheet
+        Bootstrap
+
+Javascript ??
+    Static
+    Dynamcity of your frontend - Client Side Programming Language
+
+
+Fundamentals of JS
+----------------------
+0. Web Browser Dev Tools - Console
+1. How and where to Use ?
+    1. Inline
+    2. Internal
+    3. External (.js)
+2. Data Types
+3. Variables in JS
+4. Operators
+5. Arrays
+6. Objects (Hashable Data - dict)
+7. Control Statements (if-else if-else)
+8. Looping Statements (while, for, for in)
+9. User Defined Functions
+......
+10. Document Object Modelling
+    a. Window Object
+    b. Document Object: HTML Page (DOM)
+    c. Form Object
+    d. Form Control Elements
