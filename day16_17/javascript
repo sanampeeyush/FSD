@@ -1,0 +1,86 @@
+Website
+    Client Side - Frontend
+    Server Side - Backend
+
+
+Frontend Techs
+    HTML - Markup Language
+    CSS - Style Sheet
+        Bootstrap
+
+Javascript ??
+    Static
+    Dynamcity of your frontend - Client Side Programming Language
+
+
+Fundamentals of JS
+----------------------
+0. Web Browser Dev Tools - Console
+1. How and where to Use ?
+    1. Inline
+    2. Internal
+    3. External (.js)
+2. Data Types
+3. Variables in JS
+4. Operators
+5. Arrays
+6. Objects (Hashable Data - dict)
+7. Control Statements (if-else if-else)
+8. Looping Statements (while, for, for in)
+9. User Defined Functions
+......
+10. Document Object Modelling
+    a. Window Object
+    b. Document Object: HTML Page (DOM)
+        document.write()
+        document.URL
+        document.head
+        document.body
+        document.links
+
+        i. Selecting the HTML tags
+            document.getElementsByTagName()
+            document.getElementById()
+            document.getElementsByClassName()
+            document.querySelector()
+            document.querySelectorAll()
+        
+        ii. Interaction with the dom
+                domObject.textContent
+                domObject.innerHTML
+                domObject.style
+                domObject.getAttribute()
+                domObject.setAttribute()
+                domObject......
+                domObject.appendChild()
+                domObject.childNodes[n]
+
+                domObject.addEventListener(event, listener)
+                    mouseover
+                    mouseout
+                    mousedown
+                    mouseup
+                    mouseenter
+                    mousewheel
+                    click
+                    copy
+                    cut
+                    paste
+                    dblclick
+                    focus
+                    focusin
+                    focusout
+                    keydown
+                    keypress
+                    keyup
+                    scroll
+            
+        iii. Events
+        iv.  Form Data
+        
+
+        
+
+    c. Form Object
+    d. Form Control Elements
+
