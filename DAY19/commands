@@ -1,0 +1,20 @@
+
+django-admin startproject projectname
+or
+python -m django startproject projectname 
+
+# run a django server
+python manage.py runserver
+
+######
+Django Project Structure
+------------------------
+Root Folder (named as project name)
+  projectFolder  =  (Main Project)
+     __init__.py      = making this folder a package
+     asgi.py          = application server gateway interface
+     settings.py      = default settings of project
+     urls.py          = main url definition file
+     wsgi.py          = web server gateway interface
+  manage.py        = Managing different sub-commands of project
+-------------------------

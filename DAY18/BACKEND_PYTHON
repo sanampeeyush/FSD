@@ -1,0 +1,21 @@
+OPERATORS - 
+    ARITHMETIC +,-,*,/,**,//,%
+    RELATIONAL >, <, >=, <=, ==, !=
+    ASSIGNMENT =, +=, -=, *= ........
+    LOGICAL    and, or, not
+    BITWISE    &, |, ~, ^, <<, >>
+    MEMBERSHIP  in, not in
+    IDENTITY    is, is not
+
+Data Types
+    Numbers: int, float, complex    50, 50.0, 50+0j
+    String: str 'hi', "hi", """Hi""", '''Hi'''
+    Collections: list, tuple, dict, set
+            [4,'a',3.4,4,5,6] -> mutable
+            (4,'a',3.4,4,5,6) -> immutable
+            {'a':[4,5],6:'hi'}
+            {4,6,8,2,4} -> unordered collection of unique
+    Boolean: bool
+            True, False
+
+    
